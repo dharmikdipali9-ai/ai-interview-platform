@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://ai-interview-platform-yd7c.onrender.com/",
+  baseURL: process.env.REACT_APP_API_URL,
 });
 
 // Attach token
